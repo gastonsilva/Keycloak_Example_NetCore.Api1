@@ -1,7 +1,9 @@
 ¿Cómo buildear el Dockerfile?
 ==========
+```
 dotnet publish -c Release
-docker build -t <eltag> .
+docker build -t ${tagName} .
+```
 
 Extra
 ==========
